@@ -169,8 +169,8 @@ const server = http.createServer(async (req, res) => {
 
   // Serve HTML pages
   const staticPages = {
-    '/': ['/mnt/user-data/outputs/anticig-website.html', path.join(__dirname, '..', 'anticig-website.html')],
-    '/index.html': ['/mnt/user-data/outputs/anticig-website.html'],
+    '/': [path.join(__dirname, 'index.html')],
+    '/index.html': [path.join(__dirname, 'index.html')],
     '/admin': [path.join(__dirname, 'admin.html')],
     '/admin.html': [path.join(__dirname, 'admin.html')],
     '/checkout': [path.join(__dirname, 'checkout.html')],
