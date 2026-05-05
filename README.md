@@ -352,3 +352,19 @@ anticig-backend/
 ---
 
 *ANTICIG Backend — Made in Ludhiana, Punjab 🇮🇳*
+# ANTICIG
+
+ANTICIG is a clothing website with frontend and backend deployed on Render.
+
+## Live Website
+
+https://anticig.onrender.com
+
+## API Health Check
+
+https://anticig.onrender.com/api/health
+
+## Admin Login
+
+Email: admin@anticig.com  
+Password: Admin@1234
