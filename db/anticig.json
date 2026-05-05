@@ -1,0 +1,448 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "name": "Admin User",
+      "email": "admin@anticig.com",
+      "password": "5729f72a228721fc67031059d5c0411cf7cf80ee2c2e91bebd438b0a0af68faf",
+      "role": "admin",
+      "phone": "9876543210",
+      "address": {
+        "street": "12 MG Road",
+        "city": "Ludhiana",
+        "state": "Punjab",
+        "pincode": "141001"
+      },
+      "wishlist": [
+        "prd_004"
+      ],
+      "createdAt": "2026-05-04T22:42:30.163Z",
+      "updatedAt": "2026-05-05T13:59:50.760Z"
+    },
+    {
+      "name": "Test User",
+      "email": "test@user.com",
+      "password": "2963879fea95c3c4d99127b9f8a11c2a7ca687d0f294615c2b9844a7ed323ec7",
+      "role": "customer",
+      "phone": "",
+      "address": {},
+      "wishlist": [],
+      "id": "use_1777934868275_ypm0k",
+      "createdAt": "2026-05-04T22:47:48.275Z"
+    },
+    {
+      "name": "sandy",
+      "email": "sandy108444@gmail.com",
+      "password": "b0e4f8915c44e1c07a63897d3182cf703c1345d4fa288cce5a415006a452a450",
+      "role": "customer",
+      "phone": "",
+      "address": {},
+      "wishlist": [
+        "prd_001"
+      ],
+      "id": "use_1777980510909_vc2n9",
+      "createdAt": "2026-05-05T11:28:30.909Z",
+      "updatedAt": "2026-05-05T11:29:26.994Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prd_001",
+      "name": "Obsidian Oversized Tee",
+      "slug": "obsidian-oversized-tee",
+      "category": "tshirts",
+      "gender": "unisex",
+      "price": 1299,
+      "comparePrice": null,
+      "description": "Ultra-soft 240 GSM heavyweight cotton. Dropped shoulders, boxy fit. Screen-printed ANTICIG graphic on chest.",
+      "images": [
+        "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500&q=80"
+      ],
+      "colors": [
+        "#0a0a0a",
+        "#3a3a3a",
+        "#e8e4dc"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "S": 11,
+        "M": 18,
+        "L": 18,
+        "XL": 8
+      },
+      "tags": [
+        "new",
+        "bestseller"
+      ],
+      "rating": 4.8,
+      "reviews": 47,
+      "featured": true,
+      "active": true,
+      "createdAt": "2026-05-04T22:42:30.163Z",
+      "updatedAt": "2026-05-05T11:34:47.864Z"
+    },
+    {
+      "id": "prd_002",
+      "name": "Charcoal Cargo Jacket",
+      "slug": "charcoal-cargo-jacket",
+      "category": "jackets",
+      "gender": "men",
+      "price": 3999,
+      "comparePrice": 4999,
+      "description": "Technical cargo jacket with 8 pockets. Water-resistant ripstop shell, YKK zippers throughout.",
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80"
+      ],
+      "colors": [
+        "#2c2c2c",
+        "#4a3728"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "stock": {
+        "M": 5,
+        "L": 7,
+        "XL": 4,
+        "XXL": 2
+      },
+      "tags": [
+        "sale"
+      ],
+      "rating": 4.6,
+      "reviews": 31,
+      "featured": true,
+      "active": true,
+      "createdAt": "2026-05-04T22:42:30.163Z"
+    },
+    {
+      "id": "prd_003",
+      "name": "Velvet Wide-Leg Pants",
+      "slug": "velvet-wide-leg-pants",
+      "category": "bottoms",
+      "gender": "women",
+      "price": 2499,
+      "comparePrice": null,
+      "description": "Crushed velvet wide-leg trousers with a high waist and side pockets. Fully lined for comfort.",
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&q=80"
+      ],
+      "colors": [
+        "#1a1a2e",
+        "#2d1b1b",
+        "#c9a96e"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "stock": {
+        "XS": 6,
+        "S": 9,
+        "M": 8,
+        "L": 5
+      },
+      "tags": [
+        "new"
+      ],
+      "rating": 4.9,
+      "reviews": 22,
+      "featured": true,
+      "active": true,
+      "createdAt": "2026-05-04T22:42:30.163Z",
+      "updatedAt": "2026-05-05T11:34:47.863Z"
+    },
+    {
+      "id": "prd_004",
+      "name": "Raw Edge Hoodie",
+      "slug": "raw-edge-hoodie",
+      "category": "hoodies",
+      "gender": "unisex",
+      "price": 2799,
+      "comparePrice": null,
+      "description": "Premium French Terry hoodie with intentionally raw hem edges. Relaxed fit, kangaroo pocket.",
+      "images": [
+        "https://images.unsplash.com/photo-1617922001439-4a2e6562f328?w=500&q=80"
+      ],
+      "colors": [
+        "#1c1c1c"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "S": 0,
+        "M": 0,
+        "L": 0,
+        "XL": 0
+      },
+      "tags": [
+        "sold-out"
+      ],
+      "rating": 4.7,
+      "reviews": 58,
+      "featured": true,
+      "active": true,
+      "createdAt": "2026-05-04T22:42:30.163Z"
+    },
+    {
+      "id": "prd_005",
+      "name": "Contrast Stitch Shirt",
+      "slug": "contrast-stitch-shirt",
+      "category": "shirts",
+      "gender": "men",
+      "price": 1899,
+      "comparePrice": null,
+      "description": "Oversized oxford shirt with contrasting gold stitching. 100% Egyptian cotton.",
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&q=80"
+      ],
+      "colors": [
+        "#f5f3ef",
+        "#0a0a0a"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "S": 8,
+        "M": 14,
+        "L": 11,
+        "XL": 6
+      },
+      "tags": [],
+      "rating": 4.5,
+      "reviews": 19,
+      "featured": false,
+      "active": true,
+      "createdAt": "2026-05-04T22:42:30.163Z"
+    },
+    {
+      "id": "prd_006",
+      "name": "Asymmetric Midi Dress",
+      "slug": "asymmetric-midi-dress",
+      "category": "dresses",
+      "gender": "women",
+      "price": 3299,
+      "comparePrice": 3999,
+      "description": "Structured asymmetric neckline midi dress. Side slit, invisible zipper, fully lined.",
+      "images": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80"
+      ],
+      "colors": [
+        "#0a0a0a",
+        "#1a1a2e"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "stock": {
+        "XS": 3,
+        "S": 6,
+        "M": 9,
+        "L": 4
+      },
+      "tags": [
+        "sale",
+        "new"
+      ],
+      "rating": 4.8,
+      "reviews": 14,
+      "featured": false,
+      "active": true,
+      "createdAt": "2026-05-04T22:42:30.163Z"
+    }
+  ],
+  "orders": [
+    {
+      "orderNumber": "ACG-MOSJWX88-2YP",
+      "userId": "use_1777980510909_vc2n9",
+      "userName": "sandy",
+      "userEmail": "sandy108444@gmail.com",
+      "items": [
+        {
+          "key": "prd_003_S_default",
+          "productId": "prd_003",
+          "name": "Velvet Wide-Leg Pants",
+          "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&q=80",
+          "size": "S",
+          "color": null,
+          "price": 2499,
+          "comparePrice": null,
+          "qty": 1,
+          "currentPrice": 2499
+        },
+        {
+          "key": "prd_001_S_default",
+          "productId": "prd_001",
+          "name": "Obsidian Oversized Tee",
+          "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500&q=80",
+          "size": "S",
+          "color": null,
+          "price": 1299,
+          "comparePrice": null,
+          "qty": 1,
+          "currentPrice": 1299
+        }
+      ],
+      "shippingAddress": {
+        "name": "Sandeep “StArK”",
+        "street": "chandigarh university gate no 2",
+        "city": "MOHALI",
+        "state": "Punjab",
+        "pincode": "140413",
+        "phone": "",
+        "email": "sandy108444@gmail.com"
+      },
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "subtotal": 3798,
+      "shipping": 0,
+      "total": 3798,
+      "status": "delivered",
+      "timeline": [
+        {
+          "status": "confirmed",
+          "time": "2026-05-05T11:34:47.864Z",
+          "note": "Order placed successfully"
+        },
+        {
+          "status": "delivered",
+          "time": "2026-05-05T11:36:58.777Z",
+          "note": "Status updated to delivered"
+        }
+      ],
+      "id": "ord_1777980887864_0kbmb",
+      "createdAt": "2026-05-05T11:34:47.864Z",
+      "updatedAt": "2026-05-05T11:36:58.777Z"
+    },
+    {
+      "orderNumber": "ACG-MORSIKC4-OW2",
+      "userId": "usr_admin_001",
+      "userName": "Admin User",
+      "userEmail": "admin@anticig.com",
+      "items": [
+        {
+          "key": "prd_001_M_default",
+          "productId": "prd_001",
+          "name": "Obsidian Oversized Tee",
+          "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500&q=80",
+          "size": "M",
+          "color": null,
+          "price": 1299,
+          "comparePrice": null,
+          "qty": 2,
+          "currentPrice": 1299
+        }
+      ],
+      "shippingAddress": {
+        "street": "12 MG Road",
+        "city": "Ludhiana",
+        "state": "Punjab",
+        "pincode": "141001"
+      },
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "subtotal": 2598,
+      "shipping": 99,
+      "total": 2697,
+      "status": "cancelled",
+      "timeline": [
+        {
+          "status": "confirmed",
+          "time": "2026-05-04T22:47:48.340Z",
+          "note": "Order placed successfully"
+        },
+        {
+          "status": "cancelled",
+          "time": "2026-05-05T11:37:02.302Z",
+          "note": "Status updated to cancelled"
+        }
+      ],
+      "id": "ord_1777934868340_w0dem",
+      "createdAt": "2026-05-04T22:47:48.340Z",
+      "updatedAt": "2026-05-05T11:37:02.302Z"
+    }
+  ],
+  "carts": [
+    {
+      "userId": "usr_admin_001",
+      "items": [],
+      "id": "car_1777934868307_penvi",
+      "createdAt": "2026-05-04T22:47:48.307Z",
+      "updatedAt": "2026-05-04T22:47:48.340Z"
+    },
+    {
+      "userId": "use_1777980510909_vc2n9",
+      "items": [
+        {
+          "key": "prd_002_L_default",
+          "productId": "prd_002",
+          "name": "Charcoal Cargo Jacket",
+          "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80",
+          "size": "L",
+          "color": null,
+          "price": 3999,
+          "comparePrice": 4999,
+          "qty": 1
+        }
+      ],
+      "id": "car_1777980537855_6u2j5",
+      "createdAt": "2026-05-05T11:28:57.855Z",
+      "updatedAt": "2026-05-05T11:35:10.335Z"
+    }
+  ],
+  "reviews": [],
+  "newsletter": [],
+  "collections": [
+    {
+      "id": "col_001",
+      "name": "Noir Essentials",
+      "slug": "noir-essentials",
+      "description": "The darkest basics.",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+      "count": 42,
+      "tag": "New Season",
+      "active": true
+    },
+    {
+      "id": "col_002",
+      "name": "Urban Drift",
+      "slug": "urban-drift",
+      "description": "Street meets structure.",
+      "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&q=80",
+      "count": 18,
+      "tag": "Limited Edition",
+      "active": true
+    },
+    {
+      "id": "col_003",
+      "name": "Signature Core",
+      "slug": "signature-core",
+      "description": "Everyday essentials.",
+      "image": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=600&q=80",
+      "count": 64,
+      "tag": "Bestsellers",
+      "active": true
+    }
+  ]
+}
